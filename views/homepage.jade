@@ -1,0 +1,18 @@
+extends ./layout
+
+
+block body
+
+
+  div(md-theme="blue")
+    ng-view
+
+  div(layout='column', md-theme='blue')
+    // The md-toolbar and all of its children will use the indigo theme
+    md-toolbar
+      md-button Hello
+    md-content
+      md-button Hello
+
+
+  p this is just a test
